@@ -1,0 +1,9 @@
+python_binary(
+  name = "foo",
+  sources = [
+    "foo.py",
+  ],
+  dependencies = [
+    "//src/python/foo/bar:barlib",
+  ],
+)

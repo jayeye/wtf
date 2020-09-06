@@ -1,0 +1,6 @@
+python_library(
+  name = "barlib",
+  sources = [
+    "baz.py",
+  ],
+)
